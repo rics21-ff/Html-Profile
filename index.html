@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: #222;
+            color: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            width: 320px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h2 {
+            margin-bottom: 5px;
+        }
+
+        .profile-card p.location {
+            color: #a5ff3d;
+            font-size: 0.9em;
+            margin: 0;
+        }
+
+        .profile-card p.bio {
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .profile-card button {
+            background-color: #3a3a3a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .profile-card button:hover {
+            background-color: #555;
+        }
+
+        .profile-card button:active {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="2.png.jpg" alt="Profile Picture">
+        <h2>Rico Francis D. Rico</h2>
+        <p class="location">Talibon Bohol,Philippines</p>
+        <p class="bio">"GWAPO:>"</p>
+        <button onclick="document.location='https://github.com/rics21-ff'">GitHub</button>
+        <button onclick="document.location='https://www.facebook.com/Francisric0'">Facebook</button>
+        <button onclick="document.location='https://www.tiktok.com/@its.me.rico?is_from_webapp=1&sender_device=pc'">Tiktok</button>
+        <button onclick="document.location='https://x.com/FrancisRobertR1'">Twitter</button>
+        <button onclick="document.location='https://www.instagram.com/f.r.a.n.c.i.s.21/'">Instagram</button>
+    </div>
+
+</body>
+</html>
